@@ -137,7 +137,7 @@ export default {
             i
           ].replace("÷", "DIVISAO");
         }
-        fetch("http://localhost:9090/api/calculos", {
+        fetch("https://calculadora-api-rickmineli.herokuapp.com/api/calculos", {
           body: JSON.stringify(calculo),
           method: "POST",
           headers: {
@@ -152,7 +152,7 @@ export default {
       }
     },
     mostraCalculos() {
-      fetch("http://localhost:9090/api/calculos")
+      fetch("https://calculadora-api-rickmineli.herokuapp.com/api/calculos")
         .then(response => response.json())
         .then(data => {
           this.calculos = data;
