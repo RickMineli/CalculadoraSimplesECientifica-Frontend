@@ -33,6 +33,11 @@
         <br>(multiplicacão e divisão primeiro).
         <br>Exemplo: 5 + 7 X 4 – 10 ÷ 2 = 28
       </p>
+      
+    <p>Veja o código fonte: </p>
+    <p><a target="_blank" href="https://github.com/RickMineli/CalculadoraSimplesECientifica-Frontend">Front-end</a></p>
+    <p><a target="_blank" href="https://github.com/RickMineli/CalculadoraSimplesECientifica">Back-end</a></p>
+
       <div @click="mostraCalculos()">Clique aqui para ver todos os calculos já feitos.</div>
       <div>
         <br>
